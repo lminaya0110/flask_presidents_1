@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     """Default page for this site"""
-    return '''<h1>try .../president/#</h1>'''
+    return '<h1>Try typing a presidents last name OR term number after president/ </h1>'
 
 
 @app.route('/president/<int:termnum>/')
